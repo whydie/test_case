@@ -1,0 +1,52 @@
+[
+  {
+    "model": "restapi.user",
+    "pk": 1,
+    "fields": {
+      "username": "www.test@test.ru",
+      "password": "pbkdf2_sha256$216000$8bmcvf8Fk1t6$2V7dg2s+InrDYDaal8UOF93mcIjNI1iZtHleH7TwP9I="
+    }
+  },
+  {
+    "model": "restapi.subscription",
+    "pk": 1,
+    "fields": {
+      "code": "trial",
+      "days": 14
+    }
+  },
+  {
+    "model": "restapi.subscription",
+    "pk": 2,
+    "fields": {
+      "code": "month",
+      "days": 30
+    }
+  },
+  {
+    "model": "restapi.subscription",
+    "pk": 3,
+    "fields": {
+      "code": "year",
+      "days": 365
+    }
+  },
+  {
+    "model": "restapi.book",
+    "pk": 1,
+    "fields": {
+      "author": "Дэвид Юм",
+      "name": "Исследование о человеческом разумении",
+      "isbn": "978-5-386-10345-3"
+    }
+  },
+  {
+    "model": "restapi.book",
+    "pk": 2,
+    "fields": {
+      "author": "Ницше Фридрих Вильгельм",
+      "name": "По ту сторону добра и зла",
+      "isbn": "978-5-17-107198-1"
+    }
+  }
+]
