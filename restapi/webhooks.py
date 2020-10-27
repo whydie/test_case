@@ -20,7 +20,7 @@ def payment_processed(request):
 
     if data["status"] == "ok":
         handle_payment_ok(data)
-        return Response(status=201)
+        return Response(status=200)
 
     return Response(status=404)
 
